@@ -1,37 +1,73 @@
-<article class="example" id="uk">
-  <h1>HTML-partials</h1>
+<div class="wrapper">
+    <h1 class="title">Slider Swiper</h1>
+    <div class="swiper-container image-slider">
+        <div class="swiper-wrapper image-slider__wrapper">
+            <div class="swiper-slide image-slider__slide">
+                <div class="image-slider__image">
+                    <img src="./images/gallery/gallery1.jpg" alt="gallery-image">
+                </div>                
+            </div>
+            <div class="swiper-slide">
+                <div class="image-slider__image">
+                    <img src="./images/gallery/gallery2.jpg" alt="gallery-image">
+                </div>                
+            </div>
+            <div class="swiper-slide">
+                <div class="image-slider__image">
+                    <img src="./images/gallery/gallery3.jpg" alt="gallery-image">
+                </div>                
+            </div>
+            <div class="swiper-slide">
+                <div class="image-slider__image">
+                    <img src="./images/gallery/gallery4.jpg" alt="gallery-image">
+                </div>                
+            </div>
+            <div class="swiper-slide">
+                <div class="image-slider__image">
+                    <img src="./images/gallery/gallery5.jpg" alt="gallery-image">
+                </div>                
+            </div>
+            <div class="swiper-slide">
+                <div class="image-slider__image">
+                    <img src="./images/gallery/gallery6.jpg" alt="gallery-image">
+                </div>                
+            </div>
+            <div class="swiper-slide">
+                <div class="image-slider__image">
+                    <img src="./images/gallery/gallery7.jpg" alt="gallery-image">
+                </div>                
+            </div>
+            <div class="swiper-slide">
+                <div class="image-slider__image">
+                    <img src="./images/gallery/gallery8.jpg" alt="gallery-image">
+                </div>                
+            </div>
+            <div class="swiper-slide">
+                <div class="image-slider__image">
+                    <img src="./images/gallery/gallery9.jpg" alt="gallery-image">
+                </div>                
+            </div>
+            <div class="swiper-slide">
+                <div class="image-slider__image">
+                    <img src="./images/gallery/gallery10.jpg" alt="gallery-image">
+                </div>                
+            </div>
+            <div class="swiper-slide">
+                <div class="image-slider__image">
+                    <img src="./images/gallery/gallery11.jpg" alt="gallery-image">
+                </div>                
+            </div>
+            <div class="swiper-slide">
+                <div class="image-slider__image"></div>
+                <img src="./images/gallery/gallery12.jpg" alt="gallery-image">
+            </div>
+        </div>
+    
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    
+        <div class="swiper-pagination"></div>
+        <div class="swiper-scrollbar"></div>
+    </div>
+</div>
 
-  <!--
-    ❗️❗️❗️ The path to images from the HTML partial
-    is the same as from the index.html file
-  -->
-  <img src="images/logo.png" alt="" width="320" />
-
-  <p>
-    The
-    <a
-      href="https://github.com/posthtml/posthtml-include"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      posthtml-include
-    </a>
-    plugin allows you to add code from other HTML files (fragments) to HTML page
-    files. Fragments are stored in the <code>src/partials</code> folder. The
-    addition occurs when compiling page files, such as <code>index.html</code>.
-  </p>
-
-  <p>
-    This <code>example.html</code> file is an example of such a snippet, with
-    the markup of a certain part of the main page. This is very convenient for
-    team development on student projects, when several people write in one HTML
-    file at once.
-  </p>
-
-  <p>
-    The syntax for adding a fragment to the main file is:
-    <code> &lt;include src="./partials/filename.html"&gt;&lt;/include&gt;</code>
-  </p>
-
-  <div class="background"></div>
-</article>
