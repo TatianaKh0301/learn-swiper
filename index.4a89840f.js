@@ -1,0 +1,2 @@
+new Swiper(".image-slider",{navigation:{nextEl:".swiper-button-next",prevEl:".swiper-button-prev"},scrollbar:{el:".swiper-scrollbar",draggable:!0},slideToClickedSlide:!0,keyboard:{enabled:!0,onlyInViewport:!0,pageUpDown:!0},mousewheel:{sensivity:1},autoHeight:!1,slidesPerView:3,spaceBetween:30,slidesPerGroup:3,loop:!0,loopedSlides:3,autoplay:{delay:1e3,stopOnLastSlide:!0,disableOnInteraction:!1}});
+//# sourceMappingURL=index.4a89840f.js.map
